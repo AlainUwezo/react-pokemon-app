@@ -1,0 +1,9 @@
+.topbar {
+    @apply bg-slate-800 py-2 text-2xl text-start;
+}
+
+@screen md {
+    .topbar {
+        @apply text-center;
+    }
+}

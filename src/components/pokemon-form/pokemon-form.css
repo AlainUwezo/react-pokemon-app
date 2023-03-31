@@ -1,0 +1,15 @@
+.input-container {
+    @apply grid gap-2 mb-3 grid-cols-1;
+}
+.input {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm px-3 py-1 focus:border-blue-500;
+}
+.error {
+    @apply text-[14px] text-red-500;
+}
+
+@screen md {
+    .input-container {
+        @apply grid gap-0 mb-6 grid-cols-2;
+    }
+}

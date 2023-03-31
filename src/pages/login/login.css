@@ -1,0 +1,19 @@
+.label {
+    @apply text-[14px] mb-2;
+}
+
+.input {
+    @apply border px-3 py-1;
+}
+
+.error {
+    @apply text-xs text-red-500;
+}
+
+.input-group {
+    @apply grid grid-cols-1 mb-3;
+}
+
+.button {
+    @apply text-white rounded-md px-3 py-[4px];
+}
